@@ -237,7 +237,24 @@ Verifying SSL certificate is not expired
 **NOTA** recordemos que estos certificados duran  tres 3 meses
 
 
+Auto-Renew SSL Certificate for Apache
++++++++++++++++++++++++++++++++++
 
+
+Certbot proporciona un script para renovar el certificado solo unos días antes de su vencimiento. Puede realizar una ejecución de prueba para probar el script como se muestra::
+
+	certbot renew --dry-run
+
+Ahora, para automatizar la renovación del certificado por el script, edite el archivo crontab::
+
+	crontab -e
+	0 * * * * /usr/sbin/certbot-auto renew
+
+
+
+Puede probar la solidez de su certificado dirigiéndose a la Prueba de laboratorio SSL. Proporcione la URL del sitio web o el nombre de dominio y presione ENTER.
+
+https://www.ssllabs.com/ssltest/
 
 
 
