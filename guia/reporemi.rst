@@ -120,11 +120,11 @@ Habilitar o deshabilitar repositorios de forma permanente
 
 Habilitar::
 
-  dnf config-manager -set-enable remi-safe
+  dnf config-manager --set-enable remi-safe
 
 Deshabilitar::
 
-  dnf config-manager -set-disable remi-safe
+  dnf config-manager --set-disable remi-safe
 
 Para habilitar el repositorio REMI de forma permanente, edite el archivo /etc/yum.repos.d/remi.repo. Busque la línea habilitada =0 y cámbiela a 1 como se muestra a continuación::
 
