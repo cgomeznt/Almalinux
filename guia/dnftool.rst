@@ -102,7 +102,7 @@ Para eliminar un grupo de paquetes::
 Actualizar todos los paquetes
 ++++++++++++++++++++++++++++++++
 
-Para actualizar todos los paquetes y sus dependencias, puede usar:
+Para actualizar todos los paquetes y sus dependencias, puede usar::
   
   dnf upgrade
   
