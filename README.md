@@ -1,13 +1,12 @@
 # Almalinux 8
 
-
-* [Letsencrypt Apache](guia/letsencrypt.rst)
-* [Configurar yum desde DVD](guia/yumdvd.rst)
 * [Repositorios EPEL Almalinux 8](guia/repositorio.rst)
 * [Repositorios REMI Almalinux 8](guia/reporemi.rst)
+* [Letsencrypt Apache](guia/letsencrypt.rst)
 
 
 ## Estos estan por actualizar 
+* [Configurar yum desde DVD](guia/yumdvd.rst)
 * [Configurar Red](guia/configurar_red.rst)
 * [Configurar Default Router](guia/default_router.rst)
 * [Configurar Static Router](guia/static_router.rst)
