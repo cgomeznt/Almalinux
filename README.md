@@ -7,7 +7,7 @@
 * [Repositorios REMI Almalinux 8](guia/reporemi.rst)
 
 
-##Estos estan por actualizar 
+## Estos estan por actualizar 
 * [Configurar Red](guia/configurar_red.rst)
 * [Configurar Default Router](guia/default_router.rst)
 * [Configurar Static Router](guia/static_router.rst)
