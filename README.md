@@ -1,8 +1,11 @@
 # Almalinux 8
 
+* [DNF en Almalinux 8](guia/dnftool.rst)
 * [Repositorios EPEL Almalinux 8](guia/repositorio.rst)
 * [Repositorios REMI Almalinux 8](guia/reporemi.rst)
 * [Letsencrypt Apache](guia/letsencrypt.rst)
+
+
 
 
 ## Estos estan por actualizar 
