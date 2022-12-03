@@ -80,7 +80,7 @@ Instalar PHP 8 en AlmaLinux
 
 El componente final de la pila LAMP que vamos a instalar es PHP. Este es un lenguaje de secuencias de comandos del lado del servidor para el desarrollo de aplicaciones web dinámicas.
 
-	dnf module list php la última versión que ofrece el repositorio de AppStream es PHP 7.4::
+dnf module list php la última versión que ofrece el repositorio de AppStream es PHP 7.4::
 
 	dnf module list php
 	Last metadata expiration check: 1:19:55 ago on Tue 01 Nov 2022 05:51:34 PM UTC.
