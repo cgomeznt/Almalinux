@@ -13,6 +13,10 @@ Para buscar un paquete instalado o disponible en todos los repositorios, utiliza
 Listado de paquetes
 +++++++++++++++++++++
 
+Para limpiar todo::
+
+  dnf clean all 
+  
 Para ver una lista de todos los paquetes instalados y disponibles::
 
   dnf list all
