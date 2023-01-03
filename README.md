@@ -5,6 +5,7 @@
 * [Repositorios REMI Almalinux 8](guia/reporemi.rst)
 * [Instalar LAMP en 8](guia/lamp8.rst)
 * [Letsencrypt Apache](guia/letsencrypt.rst)
+* [Instalar python 3.11.1 sin afectar las otras instalaciones](guia/python311.rst)
 
 
 
