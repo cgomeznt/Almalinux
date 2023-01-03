@@ -79,6 +79,13 @@ Virtualenv es una herramienta usada para crear un entorno Python aislado. Pero *
   # . python/venv/bin/activate
   (venv) [root@localhost ~]#
 
+Consultamos los paquetes de nuestro entorno virtual::
 
+  # pip list
+  Package    Version
+  ---------- -------
+  pip        22.3.1
+  setuptools 65.6.3
+  wheel      0.38.4
 
 
