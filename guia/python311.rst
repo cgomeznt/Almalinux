@@ -68,6 +68,8 @@ Verificar la instalación::
 Configurando Python virtual environment (venv)
 ----------------------------------------------
 
+Virtualenv es una herramienta usada para crear un entorno Python aislado. Pero **venv** es un paquete que viene con Python 3. Python 2 no contiene venv. **virtualenv** es una biblioteca que ofrece más funcionalidades que venv. Mira el siguiente enlace para obtener una lista de características que venv no ofrece en comparación con virtualenv::
+
   pip install virtualenv 
 
   /opt/python311/bin/python3.11 -m pip install --upgrade pip
