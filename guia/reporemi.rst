@@ -52,7 +52,16 @@ Verficamos los repositorios habiliados::
   También puede usar el siguiente comando para enumerar los paquetes disponibles en el repositorio REMI-safe::
   
     dnf --disablerepo="*" --enablerepo="remi-safe" list available
-    
+ 
+Para habiliar el modulo php:remi-8.0
+Como hay varias versiones de PHP para instalar, debemos mencionar la versión junto con el nombre del repositorio para habilitar la fuente predeterminada para que estos paquetes de secuencias de comandos se instalen en nuestro sistema. Aquí está el comando para ejecutar, pero primero reinicie el conjunto de módulos PHP para los paquetes del repositorio del sistema::
+
+  dnf module reset php
+  
+y despues corremos::
+
+  dnf module enable php:remi-8.0
+
   Instalación de paquetes desde repositorios Remi / Remi-safe
   --------------------------------------------------------------
   
