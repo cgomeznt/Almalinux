@@ -1,3 +1,8 @@
+# Almalinux 9
+
+* [Setting Networking](guia/NetworkManager.rst)
+
+
 # Almalinux 8
 
 * [DNF en Almalinux 8](guia/dnftool.rst)
@@ -9,7 +14,7 @@
 * [Instalación con KickStart - preseed](guia/kickstart.rst)
 
 
-
+NetworkSetting.rst
 ## Estos estan por actualizar 
 * [Configurar yum desde DVD](guia/yumdvd.rst)
 * [Configurar Red](guia/configurar_red.rst)
