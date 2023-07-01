@@ -1,6 +1,6 @@
 # Almalinux 9
 
-* [Setting Networking](guia/NetworkManager.rst)
+* [Setting Networking](guia/NetworkSetting.rst)
 
 
 # Almalinux 8
