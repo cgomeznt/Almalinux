@@ -120,5 +120,55 @@ View the files configurations::
   0.0.0.0         192.168.0.2     0.0.0.0         UG    100    0        0 ens160
   192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 ens160
 
+Para agregar una IP adicional
+-------------------------------
+
+set other IPv4 address, el truco es +ipv4.addresses::
+
+    # nmcli connection modify ens160 +ipv4.addresses 192.168.0.22/24
+
+restart the interface to reload settings::
+
+  # nmcli connection down ens160 ; nmcli connection up ens160
+  La conexiÃ³n Â«ens160Â» se desactivÃ³ correctamente (ruta activa D-Bus: /org/freedesktop/NetworkManager/ActiveConnection/5)
+  ConexiÃ³n activada con Ã©xito (ruta activa D-Bus: /org/freedesktop/NetworkManager/ActiveConnection/6)
+
+
+Show the device::
+
+  # nmcli device show
+  GENERAL.DEVICE:                         ens160
+  GENERAL.TYPE:                           ethernet
+  GENERAL.HWADDR:                         00:0C:29:91:3E:88
+  GENERAL.MTU:                            1500
+  GENERAL.STATE:                          100 (conectado)
+  GENERAL.CONNECTION:                     ens160
+  GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/2
+  WIRED-PROPERTIES.CARRIER:               activado
+  IP4.ADDRESS[1]:                         192.168.0.21/24
+  IP4.ADDRESS[2]:                         192.168.0.22/24
+  IP4.GATEWAY:                            192.168.0.2
+  IP4.ROUTE[1]:                           dst = 192.168.0.0/24, nh = 0.0.0.0, mt = 100
+  IP4.ROUTE[2]:                           dst = 192.168.0.0/24, nh = 0.0.0.0, mt = 100
+  IP4.ROUTE[3]:                           dst = 0.0.0.0/0, nh = 192.168.0.2, mt = 100
+  IP4.DNS[1]:                             192.168.0.2
+  IP4.DNS[2]:                             8.8.8.8
+  IP4.SEARCHES[1]:                        cantv.net
+  IP6.ADDRESS[1]:                         fe80::20c:29ff:fe91:3e88/64
+  IP6.GATEWAY:                            --
+  IP6.ROUTE[1]:                           dst = fe80::/64, nh = ::, mt = 1024
+  
+  GENERAL.DEVICE:                         lo
+  GENERAL.TYPE:                           loopback
+  GENERAL.HWADDR:                         00:00:00:00:00:00
+  GENERAL.MTU:                            65536
+  GENERAL.STATE:                          100 (connected (externally))
+  GENERAL.CONNECTION:                     lo
+  GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1
+  IP4.ADDRESS[1]:                         127.0.0.1/8
+  IP4.GATEWAY:                            --
+  IP6.ADDRESS[1]:                         ::1/128
+  IP6.GATEWAY:                            --
+  IP6.ROUTE[1]:                           dst = ::1/128, nh = ::, mt = 256
 
   
