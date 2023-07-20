@@ -120,6 +120,7 @@ View the files configurations::
   0.0.0.0         192.168.0.2     0.0.0.0         UG    100    0        0 ens160
   192.168.0.0     0.0.0.0         255.255.255.0   U     100    0        0 ens160
 
+
 Para agregar una IP adicional
 -------------------------------
 
