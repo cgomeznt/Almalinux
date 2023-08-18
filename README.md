@@ -19,6 +19,8 @@
 
 * [Como_Promedio_Carga_Load_Average](guia/Como_Promedio_Carga_Load_Average.rst)
 * [UTF8_to_ISO-8859-1](guia/UTF8_to_ISO-8859-1.txt)
+* [Firewalld_Abrir_Cerrar_Puertost](guia/Firewalld_Abrir_Puertos_Servicios.rst)
+* [Firewalld_Zonas](guia/Firewalld_Zonas.rst)
 
 NetworkSetting.rst
 ## Estos estan por actualizar 
