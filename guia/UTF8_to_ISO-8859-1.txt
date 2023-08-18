@@ -1,0 +1,40 @@
+
+
+
+[cgomez@lcsdevappdockubgit ~]$vi a.txt
+
+[cgomez@lcsdevappdockubgit ~]$ iconv -cs -f UTF-8 -t ISO-8859-1 a.txt > newfile
+
+[cgomez@lcsdevappdockubgit ~]$ file newfile
+newfile: ISO-8859 text
+
+[cgomez@lcsdevappdockubgit ~]$ cat newfile
+Hecto se bañl bañañ con la niñ
+oñpppñappañññññ. ñññññññññññññññññññññññññññ2. pñññññññññññ:w
+
+
+04143070387
+
+
+27.02 * 40 = 1080.8
+
+PROVINCIAL
+04122776969
+13535649
+RUMAR BOADA
+
+
+972
+
+
+*/5 * * * * root /bin/bash /usr/local/bin/status_discover_proxy_ws.sh status_proxys 2>&1 > /dev/null
+*/5 * * * * root /bin/bash /usr/local/bin/status_discover_proxy_ws.sh status_ws 2>&1 > /dev/null
+*/5 * * * * root /bin/bash /usr/local/bin/status_discover_proxy_ws.sh status_service 2>&1 > /dev/null
+*/10 * * * * root /bin/bash echo "3" > /proc/sys/vm/drop_caches && sync 2>&1 > /dev/null
+
+
+
+10.124.0.12
+
+
+https://manapro-my.sharepoint.com/:x:/p/aguilarte/EQeX8qpEBBtJgStJA7VFqqwBLfc8ftDbNPAuVpQ_KV-Yng?rtime=MhNMB5Nu20g
