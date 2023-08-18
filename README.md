@@ -14,6 +14,7 @@
 * [Instalar python 3.11.1 sin afectar las otras instalaciones](guia/python311.rst)
 * [Instalación con KickStart - preseed](guia/kickstart.rst)
 
+
 * [Como_Promedio_Carga_Load_Average](guia/Como_Promedio_Carga_Load_Average.rst)
 * [UTF8_to_ISO-8859-1](guia/UTF8_to_ISO-8859-1.txt)
 
