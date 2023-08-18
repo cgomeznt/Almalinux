@@ -8,11 +8,14 @@
 * [DNF en Almalinux 8](guia/dnftool.rst)
 * [Repositorios EPEL Almalinux 8](guia/repositorio.rst)
 * [Repositorios REMI Almalinux 8](guia/reporemi.rst)
+* [Configurar Chrony NTP Server y Client 8](guia/Configurar_Chrony_NTP_Server_Client_RHEL_8.rst)
 * [Instalar LAMP en 8](guia/lamp8.rst)
 * [Letsencrypt Apache](guia/letsencrypt.rst)
 * [Instalar python 3.11.1 sin afectar las otras instalaciones](guia/python311.rst)
 * [Instalación con KickStart - preseed](guia/kickstart.rst)
 
+* [Como_Promedio_Carga_Load_Average](guia/Como_Promedio_Carga_Load_Average.rst)
+* [UTF8_to_ISO-8859-1](guia/UTF8_to_ISO-8859-1.txt)
 
 NetworkSetting.rst
 ## Estos estan por actualizar 
