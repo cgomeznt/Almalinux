@@ -1,7 +1,7 @@
 # Almalinux 9
 
 * [Setting Networking](guia/NetworkSetting.rst)
-
+* [Disable IPV& en RHELL 9](guia/Disable_ipv6_RHEL_9.rst)
 
 # Almalinux 8
 
