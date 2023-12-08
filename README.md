@@ -2,7 +2,7 @@
 
 * [Setting Networking](guia/NetworkSetting.rst)
 * [Disable IPV& en RHELL 9](guia/Disable_ipv6_RHEL_9.rst)
-* [Política de contraseñas en Linux con PAM y Cracklib](guia/Politica _contraseñas_PAM_Cracklib.rst)
+* [Política de contraseñas en Linux con PAM y Cracklib](guia/Politica_contraseñas_PAM_Cracklib.rst)
 
 # Almalinux 8
 
