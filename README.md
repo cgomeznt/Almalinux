@@ -3,6 +3,7 @@
 * [Setting Networking](guia/NetworkSetting.rst)
 * [Disable IPV& en RHELL 9](guia/Disable_ipv6_RHEL_9.rst)
 * [Política de contraseñas en Linux con PAM y Cracklib](guia/Politica_contraseñas_PAM_Cracklib.rst)
+* [Bloqueo de la cuenta con pam_faillock en RHEL](guia/Bloqueo_cuenta_pam_faillock_RHEL.rst)
 
 # Almalinux 8
 
